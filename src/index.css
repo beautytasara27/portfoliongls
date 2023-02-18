@@ -4,15 +4,15 @@
 
 @font-face {
   font-family: "RUBIK-REGULAR";
-  src: url("../src/assets/fonts/rubik/Rubik-Regular.ttf");
+  src: url("../src/assets/fonts/calibre/CalibreRegular.otf");
 }
 @font-face {
   font-family: "RUBIK-BOLD";
-  src: url("../src/assets/fonts/rubik/Rubik-Bold.ttf");
+  src: url("../src/assets/fonts/calibre/CalibreBold.otf");
 }
 @font-face {
   font-family: "RUBIK-LIGHT";
-  src: url("../src/assets/fonts/rubik/Rubik-Light.ttf");
+  src: url("../src/assets/fonts/calibre/CalibreLight.otf");
 }
 body {
   margin: 0;
@@ -21,7 +21,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #343454;
+  background-color: #0e1721;
   color: white;
 }
 

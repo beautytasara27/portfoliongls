@@ -11,12 +11,12 @@ const Header = ({
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="flex justify-center">
-      <div className="fixed top-0 w-full flex justify-center font-rubik-bold py-2 sm:py-6 bg-theme border-b  border-gray-500">
+      <div className="fixed z-50 top-0 w-full flex justify-center font-rubik-regular py-2 sm:py-6 bg-theme border-b  border-gray-500">
         <div className="w-full flex justify-between items-center  relative mx-4 sm:mx-6 lg:mx-8 xl:0">
           <div className="w-2/5">
-            <h1 className="text-3xl font-bold">Ngls</h1>
+            <h1 className="text-3xl font-rubik-bold">Ngls</h1>
           </div>
-          <div className="hidden md:flex items-center text-base justify-end flex-grow space-x-8">
+          <div className="hidden md:flex items-center text-lg justify-end flex-grow space-x-8">
             <h2
               className={landingIn ? "text-yello" : ""}
               onClick={() => ScrollToSection("landing")}
@@ -38,22 +38,28 @@ const Header = ({
               Experience
             </h2>
             <h2
-            className={projectsIn ? "text-yello" : ""}
-            onClick={() => ScrollToSection("services")}
-          >
-            <span className="mr-2 text-yello">04.</span>
-            Projects
-          </h2>
-          
+              className={projectsIn ? "text-yello" : ""}
+              onClick={() => ScrollToSection("services")}
+            >
+              <span className="mr-2 text-yello">03.</span>
+              Projects
+            </h2>
+
             <h2
               className={contactIn ? "text-yello" : ""}
               onClick={() => ScrollToSection("contact")}
             >
-              <span className="mr-2 text-yello">05.</span>
+              <span className="mr-2 text-yello">04.</span>
               Contact
             </h2>
             <button className="border p-2 border-yello rounded-[4px]">
-              Resume
+              <a
+                target="_blank"
+                href="https://drive.google.com/uc?export=download&id=1e3Bl2X6UT0ApiH3PLN0Ov4pdflNb83Ng"
+              >
+                {" "}
+                Resume
+              </a>
             </button>
           </div>
           <svg
@@ -88,7 +94,7 @@ const Header = ({
               >
                 About
               </h2>
-          
+
               <h2
                 className={servicesIn ? "text-yello" : ""}
                 onClick={() => ScrollToSection("services")}

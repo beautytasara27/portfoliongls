@@ -9,7 +9,7 @@ const FeaturedThumbnail = ({ project }) => {
         <div className="space-y-2">
           {" "}
           <p className="text-yello">Featured Project</p>
-          <h2 className="text-2xl">{project.projectName}</h2>
+          <h2 className="text-2xl font-rubik-bold">{project.projectName}</h2>
         </div>
         <div className="space-y-6 text-gray-300">
           <div className=" flex space-x-4 justify-end text-gray-300 text-sm">

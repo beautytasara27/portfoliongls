@@ -43,7 +43,7 @@ const Home = () => {
   const projectsIn = useIsInViewport(projects);
   return (
     <div className="relative">
-      <div className=" ">
+      <div className=" text-lg">
         <Header
           ScrollToSection={ScrollToSection}
           landingIn={landingIn}
