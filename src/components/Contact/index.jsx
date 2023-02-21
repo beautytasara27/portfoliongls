@@ -3,7 +3,7 @@ import AppContext from "../../context/AppContext";
 const Contact = forwardRef((props, ref) => {
   const { Contact } = useContext(AppContext);
   return (
-    <div className="flex justify-center items-center lg:h-screen mt-10 sm:mt-0 mb-10 mx-4 sm:mx-6 lg:mx-8 xl:0">
+    <div className="flex justify-center items-center h-screen mt-10 sm:mt-0 mb-10 mx-4 sm:mx-6 lg:mx-8 xl:0">
       <div className="w-full max-w-6xl font-rubik-regular">
         <div className="flex justify-center">
           <h1
