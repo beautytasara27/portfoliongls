@@ -4,3 +4,34 @@
 body {
   background-color: #0F1F31;
 }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromDown {
+  0% {
+    opacity:0%;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity:100%;
+    transform: translateY(0);
+  }
+}
+
+header {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+
+}
+
+.landing{
+  animation: slideInFromDown;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}

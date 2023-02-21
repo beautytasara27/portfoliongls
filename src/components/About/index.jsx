@@ -1,49 +1,25 @@
+import AppContext from "../../context/AppContext";
 import Avatar from "../../assets/images/programmer.webp";
-import { forwardRef } from "react";
+import { forwardRef, useContext } from "react";
 const About = forwardRef((props, ref) => {
-  const width = 2;
-  const skills = [
-    "OpenCV",
-    "Tensorflow",
-    "C",
-    "SLAM",
-    "ROS TF",
-    "YARP",
-    "ROCK",
-    "Python",
-  ];
+  const { About } = useContext(AppContext);
+
   return (
-    <div className="flex justify-center sm:h-screen mx-4 sm:mx-6 lg:mx-8 xl:0 font-rubik-regular">
-      <div className="w-full max-w-6xl ml-40">
+    <div className="flex justify-center lg:h-screen mx-4 sm:mx-6 lg:mx-8 my-20  font-rubik-regular">
+      <div className="w-full max-w-6xl lg:ml-40">
         <div>
-          <h1
-            ref={ref}
-            className=" scroll-mt-32 font-rubik-bold text-2xl mb-20"
-          >
-            <span className="pr-4 text-yello">01.</span>About Me
+          <h1 ref={ref} className="scroll-mt-40 font-rubik-bold text-2xl mb-20">
+            <span className="lg:pr-4 text-yello">01.</span>About Me
           </h1>
         </div>
         <div className="flex space-x-10">
-          <div className="space-y-4  w-1/2">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              mollis augue eget mauris rutrum, vel imperdiet magna cursus.
-              Aliquam ac fermentum turpis. Duis sit amet consectetur mauris. Nam
-              quis magna velit. Nunc tincidunt convallis finibus. Vestibulum
-              ante ipsum primis in faucibus orci luctus et ultrices posuere
-              cubilia curae; Sed elementum purus augue, sit amet scelerisque
-              augue dignissim sit amet. Fusce eu orci tortor.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisciamet scelerisque
-              augue dignissim sit amet. Fusce eu orci tortor.
-            </p>{" "}
-            <p>
-             Aliquam ac fermentum turpis. Duis sit amet consectetur mauris. Nam quis magna velit. Nunc tincidunt convallis finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed elementum purus augue, sit amet scelerisque augue dignissim sit amet. Fusce eu orci tortor. 
-            </p>
-            <p>Here are a few technologies I’ve been working with recently:</p>
+          <div className="space-y-4  w-full lg:w-1/2">
+            {About.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+            <p>{About.skillsHeading}</p>
             <div className="grid grid-cols-2 space-y-2">
-              {skills.map((skill) => (
+              {About.skills.map((skill) => (
                 <div key={skill} className="flex items-center  space-x-2">
                   <i className="fa-solid fa-play fa-xs text-yello"></i>
                   <p>{skill}</p>

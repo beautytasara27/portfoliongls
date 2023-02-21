@@ -4,7 +4,7 @@ const Skills = forwardRef((props, ref) => {
     <div className="flex justify-center  mt-10 sm:mt-0 sm:h-screen mx-4 sm:mx-6 lg:mx-8 xl:0">
       <div className="max-w-6xl w-full">
         <div>
-          <h1 ref={ref} className="scroll-mt-32 font-rubik-bold text-3xl mb-20">
+          <h1 ref={ref} className="scroll-mt-40 font-rubik-bold text-3xl mb-20">
             Skills
           </h1>
         </div>

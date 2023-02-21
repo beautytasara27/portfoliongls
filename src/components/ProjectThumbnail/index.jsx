@@ -3,7 +3,7 @@ const ProjectThumbnail = ({ project }) => {
     <div className="p-5 h-full bg-themeDarker font-rubik-regular space-y-4">
       <div className="flex justify-between items-center text-yello">
         <i className="fa-regular fa-folder fa-2x"></i>
-        <a className="" href={project.Url} target="_blank">
+        <a className="" href={project.Url} target="_blank" rel="noreferrer">
           <i className="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
