@@ -2,8 +2,8 @@
 This site is hosted [here](https://ngls-plato.netlify.app/).
 ## Features
 ❤️ Single Page App
-🤩 Smooth animations  
-❤️ React Context API  
+🤩 Smooth animations
+❤️ React Context API 
 
 ## Tech Stack
 React
