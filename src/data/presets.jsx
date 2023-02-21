@@ -208,7 +208,7 @@ export const Data = {
     }
   ],
   Contact:{
-    text:"But seriously though, how cool is this site😍. tell me how amazing my girlfriend is bellow :))",
+    text:"But seriously though, how cool is this site😍. Tell me how amazing my girlfriend is bellow :))",
     buttonText:"Say Hello",
     buttonLink:"mailto:beautytasara27@gmail.com"
   }

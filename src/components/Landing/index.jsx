@@ -30,10 +30,10 @@ const Landing = forwardRef(({ ScrollToSection }, ref) => {
               {Landing.highlighted}
             </span>
           </p>
-          <h1 className=" font-rubik-bold">
+          <h1 className="text-sm font-rubik-bold">
             <pre>
               <span className="text-yello">PS: </span>
-              My girlfriend is amazing! She built this site for me❤️🥰😊😍
+              My girlfriend is amazing! <br/>She built this site for me❤️🥰😊😍
             </pre>
           </h1>
 
