@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Landing from "../components/Landing";
 import About from "../components/About";
-import { useRef, useContext } from "react";
+import { useRef } from "react";
 import Services from "../components/Services";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
@@ -10,11 +10,7 @@ import useIsInViewport from "../helpers/useOnScreen";
 import Projects from "../components/Projects";
 import Socials from "../components/Socials";
 import Animate from "../helpers/Animate";
-import AppContext from "../context/AppContext";
-import Loading from "../components/Loader/loading";
 const Home = () => {
-  const context = useContext(AppContext);
-
   const landing = useRef(null);
   const about = useRef(null);
   const services = useRef(null);
@@ -42,9 +38,7 @@ const Home = () => {
   const experienceIn = useIsInViewport(experience);
   const contactIn = useIsInViewport(contact);
   const projectsIn = useIsInViewport(projects);
-  if (!context) {
-    return <Loading />;
-  }
+
   return (
     <div className="relative">
       <div className=" text-lg">
