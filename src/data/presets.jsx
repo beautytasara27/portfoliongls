@@ -1,7 +1,7 @@
 export const Data = {
   Landing: {
     name: "Angels Makuwerere",
-    heading:"I build robots and other stuff.",
+    heading: "I build robots and other stuff.",
     bio: "I’m an A.I researcher specializing in building and designing exceptional social robots. Currently, I’m focused on building accessible, human-centered products at",
     highlighted: "XScript",
     buttonText: "Download my Resume",
@@ -26,9 +26,9 @@ export const Data = {
       "Python",
     ],
   },
-  Experience:{
-    menuItems:["Entelect", "ZimSwitch", "AfroSoft"],
-    experience:[
+  Experience: {
+    menuItems: ["Entelect", "ZimSwitch", "AfroSoft"],
+    experience: [
       {
         company: "entelect",
         title: "Software Engineer",
@@ -65,9 +65,9 @@ export const Data = {
           "Nulla ac orci nec diam venenatis auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec auctor at lorem id pellentesque. ",
         ],
       },
-    ]
+    ],
   },
-  Featured:[
+  Featured: [
     {
       projectId: "100",
       Date: "Dec 10, 2022",
@@ -101,9 +101,9 @@ export const Data = {
           url: "https://library-7722.netlify.app/",
         },
       ],
-    }
+    },
   ],
-  Projects:[
+  Projects: [
     {
       projectId: "100",
       Date: "Dec 10, 2022",
@@ -205,11 +205,17 @@ export const Data = {
           url: "https://library-7722.netlify.app/",
         },
       ],
-    }
+    },
   ],
-  Contact:{
-    text:"But seriously though, how cool is this site😍. Tell me how amazing my girlfriend is bellow :))",
-    buttonText:"Say Hello",
-    buttonLink:"mailto:beautytasara27@gmail.com"
-  }
+  Contact: {
+    text: "But seriously though, how cool is this site😍. Tell me how amazing my girlfriend is bellow :))",
+    buttonText: "Say Hello",
+    buttonLink: "mailto:beautytasara27@gmail.com",
+  },
+  Socials: {
+    github: "https://github.com/angelsplato",
+    linkedin: "https://www.linkedin.com/in/angelsmakuwerere/",
+    twitter: "",
+    instagram: "",
+  },
 };

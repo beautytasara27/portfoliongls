@@ -1,6 +1,6 @@
 const ProjectThumbnail = ({ project }) => {
   return (
-    <div className="p-5 h-full bg-themeDarker font-rubik-regular space-y-4">
+    <div className="p-8 h-full bg-themeDarker font-rubik-regular space-y-4">
       <div className="flex justify-between items-center text-yello">
         <i className="fa-regular fa-folder fa-2x"></i>
         <a className="" href={project.Url} target="_blank" rel="noreferrer">

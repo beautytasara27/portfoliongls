@@ -10,7 +10,8 @@ const FeaturedThumbnail = ({ project }) => {
         <div className=" w-4/12 space-y-4 flex flex-col justify-between ">
           <div className="space-y-2">
             {" "}
-            <p className="text-yello">Featured Project</p>
+            <pre>  <p className="text-yello">Featured Project</p></pre>
+           
             <h2 className="text-2xl font-rubik-bold">{project.projectName}</h2>
           </div>
           <div className="space-y-6 text-gray-300">
@@ -21,10 +22,10 @@ const FeaturedThumbnail = ({ project }) => {
             </div>
             <div className="flex space-x-4 justify-end">
               <a className="" href={project.Github} target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-github fa-2x"></i>
+                <i className="fa-brands fa-github "></i>
               </a>
               <a className="" href={project.Url} target="_blank" rel="noreferrer">
-                <i className="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
+                <i className="fa-solid fa-arrow-up-right-from-square "></i>
               </a>
             </div>
           </div>
@@ -38,8 +39,8 @@ const FeaturedThumbnail = ({ project }) => {
           <div className="space-y-4 flex flex-col justify-between p-2">
             <div className="space-y-2">
               {" "}
-              <pre>
-              <p className="text-yello">Featured Project</p></pre>
+              
+              <pre><p className="text-yello font-rubik-bold">Featured Project</p></pre>
               <h2 className="text-2xl font-rubik-bold">
                 {project.projectName}
               </h2>
