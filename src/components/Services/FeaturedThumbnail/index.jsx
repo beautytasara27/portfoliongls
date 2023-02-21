@@ -33,7 +33,7 @@ const FeaturedThumbnail = ({ project }) => {
           </div>
         </div>
       </div>
-      <div className="md:hidden bg-url('../../../assets/personal/butter.jpg')">
+      <div className="md:hidden bg-url('../../../assets/personal/butter.jpg') font-rubik-regular">
         <div className="bg-themeDarker bg-opacity-50 w-full">
           <div className="space-y-4 flex flex-col justify-between p-2">
             <div className="space-y-2">

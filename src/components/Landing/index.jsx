@@ -1,11 +1,7 @@
 import { forwardRef, useContext } from "react";
 import AppContext from "../../context/AppContext";
-import Loading from "../Loader/loading";
 const Landing = forwardRef(({ ScrollToSection }, ref) => {
   const { Landing } = useContext(AppContext);
-  if (!Landing) {
-    return <Loading />;
-  }
   return (
     <div className="landing flex justify-center h-screen mx-4 sm:mx-6 lg:mx-8">
       <div className="w-full max-w-6xl">
