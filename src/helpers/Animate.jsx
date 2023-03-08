@@ -1,5 +1,4 @@
 const Animate = ({ref, onScreen, children })=>{
-console.log("hulahoop",ref, onScreen)
     return (
         <div
           ref={ref}

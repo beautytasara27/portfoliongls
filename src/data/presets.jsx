@@ -78,7 +78,7 @@ export const Data = {
         {
           Title: "Overview",
           Description:
-            "My girlfriend likes this robot from Rick and Morty so I built it for her. I just want to make her happy :). #manifesting",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis tempus neque, sed tincidunt tortor. Fusce vulputate a libero et volutpat. Sed varius neque massa, vitae porttitor eros commodo vel. Etiam at nisl fringilla",
         },
       ],
       Url: "https://github.com/beautytasara27/LibraryWeb",
@@ -208,7 +208,7 @@ export const Data = {
     },
   ],
   Contact: {
-    text: "But seriously though, how cool is this site😍. Tell me how amazing my girlfriend is bellow :))",
+    text: "Etiam nibh felis, sollicitudin non sagittis varius, laoreet sit amet arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     buttonText: "Say Hello",
     buttonLink: "mailto:beautytasara27@gmail.com",
   },
@@ -218,4 +218,111 @@ export const Data = {
     twitter: "",
     instagram: "",
   },
+  Archive: [
+    {
+      projectId: "100",
+      Date: "2022",
+      projectName: "Sample Archive Project : My rendition of C3PO",
+      Languages: ["Javascript"],
+      Frameworks: ["OpenCv", "Tensorflow", "ROS"],
+      Company :"XScript",
+      paragraphs: [
+        {
+          Title: "Overview",
+          Description:
+            "Lorem ipsum dolor sit amet, neque quis cursus. Nullam sapien nunc, pharetra sit amet rutrum tincidunt, fermentum ac nibh. Etiam quis purus auctor, feugiat libero id, imperdiet arcu. Pellentesque pharetra sodales cursus.",
+        },
+      ],
+      Url: "https://github.com/beautytasara27/LibraryWeb",
+      GitHub: "https://github.com/beautytasara27/LibraryWeb",
+      imageUrl: "Images/Altonium/alto2.png",
+      video: "https://www.youtube.com/embed/RmU-EzRo6x8",
+      images: [
+        "Images/Altonium/alto1.png",
+        "Images/Altonium/alto2.png",
+        "Images/Altonium/alto3.png",
+        "Images/Altonium/alto4.png",
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/beautytasara27/LibraryWeb",
+        },
+        {
+          name: "Live",
+          url: "https://library-7722.netlify.app/",
+        },
+      ],
+    },
+    {
+      projectId: "101",
+      Date: "2022",
+      projectName: "Sample Archive Project 2 : Ex Machina Prototype",
+      Languages: ["Javascript"],
+      Frameworks: ["OpenCv", "Tensorflow", "ROS"],
+      Company :"XScript",
+      paragraphs: [
+        {
+          Title: "Overview",
+          Description:
+            "Lorem ipsum dolor sit amet, neque quis cursus. Nullam sapien nunc, pharetra sit amet rutrum tincidunt, fermentum ac nibh. Etiam quis purus auctor, feugiat libero id, imperdiet arcu. Pellentesque pharetra sodales cursus.",
+        },
+      ],
+      Url: "https://github.com/beautytasara27/LibraryWeb",
+      GitHub: "https://github.com/beautytasara27/LibraryWeb",
+      imageUrl: "Images/Altonium/alto2.png",
+      video: "https://www.youtube.com/embed/RmU-EzRo6x8",
+      images: [
+        "Images/Altonium/alto1.png",
+        "Images/Altonium/alto2.png",
+        "Images/Altonium/alto3.png",
+        "Images/Altonium/alto4.png",
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/beautytasara27/LibraryWeb",
+        },
+        {
+          name: "Live",
+          url: "https://library-7722.netlify.app/",
+        },
+      ],
+    },
+    {
+      projectId: "102",
+      Date: "2022",
+      projectName: "Sample C Project 3 : Industrial robots Hackathon",
+      Languages: ["Javascript"],
+      Frameworks: ["OpenCv", "Tensorflow", "ROS"],
+      Company :"XScript",
+      paragraphs: [
+        {
+          Title: "Overview",
+          Description:
+            "Lorem ipsum dolor sit amet, neque quis cursus. Nullam sapien nunc, pharetra sit amet rutrum tincidunt, fermentum ac nibh. Etiam quis purus auctor, feugiat libero id, imperdiet arcu. Pellentesque pharetra sodales cursus.",
+        },
+      ],
+      Url: "https://github.com/beautytasara27/LibraryWeb",
+      GitHub: "https://github.com/beautytasara27/LibraryWeb",
+      imageUrl: "Images/Altonium/alto2.png",
+      video: "https://www.youtube.com/embed/RmU-EzRo6x8",
+      images: [
+        "Images/Altonium/alto1.png",
+        "Images/Altonium/alto2.png",
+        "Images/Altonium/alto3.png",
+        "Images/Altonium/alto4.png",
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/beautytasara27/LibraryWeb",
+        },
+        {
+          name: "Live",
+          url: "https://library-7722.netlify.app/",
+        },
+      ],
+    },
+  ],
 };

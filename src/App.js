@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Data } from "./data/presets";
 import AppContext from "./context/AppContext";
 import { useState, useEffect } from "react";
+import Archive from "./pages/archive";
 function App() {
   const [isLoading, setLoading] = useState(true);
   
@@ -31,6 +32,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="" element={<Home />}></Route>
+            <Route path="/archive" element={<Archive />}></Route>
           </Routes>
         </Router>
       </div>
