@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-color: #0F1F31;
+  background-color: #2C2C34;
 }
 @keyframes slideInFromLeft {
   0% {

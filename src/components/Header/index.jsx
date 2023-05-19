@@ -11,7 +11,7 @@ const Header = ({
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="flex justify-center">
-      <div className="fixed z-50 top-0 w-full flex justify-center font-rubik-regular py-2 sm:py-6 bg-theme border-b  border-gray-700">
+      <div className="fixed z-50 top-0 w-full flex justify-center font-rubik-regular py-2 sm:py-6 bg-transparent ">
         <div className="w-full flex justify-between items-center  relative mx-4 sm:mx-6 lg:mx-8 xl:0">
           <div className="w-2/5">
             <svg
@@ -155,14 +155,14 @@ const Header = ({
               onClick={() => ScrollToSection("experience")}
             >
               <span className="mr-2 text-yello">02.</span>
-              Experience
+              Services
             </h2>
             <h2
               className={servicesIn || projectsIn ? "text-yello" : ""}
               onClick={() => ScrollToSection("services")}
             >
               <span className="mr-2 text-yello">03.</span>
-              Projects
+              Clients
             </h2>
 
             <h2

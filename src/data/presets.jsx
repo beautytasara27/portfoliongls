@@ -1,8 +1,8 @@
 export const Data = {
   Landing: {
-    name: "Angels Makuwerere",
-    heading: "I build robots and other stuff.",
-    bio: "I’m an A.I researcher specializing in building and designing exceptional social robots. Currently, I’m focused on building accessible, human-centered products at",
+    name: "Richjane Enterprise ",
+    heading: "Your One Stop Shop",
+    bio: "Our workshop, which has more than 28 years of expertise, has recently been outfitted with state-of-the-art first world repair technology, in addition to highly qualified specialists and support staff, guaranteeing peace of mind in quick, effective, and high-quality repairs.",
     highlighted: "XScript",
     buttonText: "Download my Resume",
     bottonLink: "",
@@ -103,110 +103,54 @@ export const Data = {
       ],
     },
   ],
-  Projects: [
-    {
-      projectId: "100",
-      Date: "Dec 10, 2022",
-      projectName: "Sample Project",
-      Languages: ["Javascript"],
-      Frameworks: ["OpenCv", "Tensorflow", "ROS"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "Lorem ipsum dolor sit amet, neque quis cursus. Nullam sapien nunc, pharetra sit amet rutrum tincidunt, fermentum ac nibh. Etiam quis purus auctor, feugiat libero id, imperdiet arcu. Pellentesque pharetra sodales cursus.",
-        },
-      ],
-      Url: "https://github.com/beautytasara27/LibraryWeb",
-      GitHub: "https://github.com/beautytasara27/LibraryWeb",
-      imageUrl: "Images/Altonium/alto2.png",
-      video: "https://www.youtube.com/embed/RmU-EzRo6x8",
-      images: [
-        "Images/Altonium/alto1.png",
-        "Images/Altonium/alto2.png",
-        "Images/Altonium/alto3.png",
-        "Images/Altonium/alto4.png",
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/beautytasara27/LibraryWeb",
-        },
-        {
-          name: "Live",
-          url: "https://library-7722.netlify.app/",
-        },
-      ],
-    },
-    {
-      projectId: "100",
-      Date: "Dec 10, 2022",
-      projectName: "Sample Project 2",
-      Languages: ["Javascript"],
-      Frameworks: ["OpenCv", "Tensorflow", "ROS"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "Lorem ipsum dolor sit amet, neque quis cursus. Nullam sapien nunc, pharetra sit amet rutrum tincidunt, fermentum ac nibh. Etiam quis purus auctor, feugiat libero id, imperdiet arcu. Pellentesque pharetra sodales cursus.",
-        },
-      ],
-      Url: "https://github.com/beautytasara27/LibraryWeb",
-      GitHub: "https://github.com/beautytasara27/LibraryWeb",
-      imageUrl: "Images/Altonium/alto2.png",
-      video: "https://www.youtube.com/embed/RmU-EzRo6x8",
-      images: [
-        "Images/Altonium/alto1.png",
-        "Images/Altonium/alto2.png",
-        "Images/Altonium/alto3.png",
-        "Images/Altonium/alto4.png",
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/beautytasara27/LibraryWeb",
-        },
-        {
-          name: "Live",
-          url: "https://library-7722.netlify.app/",
-        },
-      ],
-    },
-    {
-      projectId: "100",
-      Date: "Dec 10, 2022",
-      projectName: "Sample Project 3",
-      Languages: ["Javascript"],
-      Frameworks: ["OpenCv", "Tensorflow", "ROS"],
-      paragraphs: [
-        {
-          Title: "Overview",
-          Description:
-            "Lorem ipsum dolor sit amet, neque quis cursus. Nullam sapien nunc, pharetra sit amet rutrum tincidunt, fermentum ac nibh. Etiam quis purus auctor, feugiat libero id, imperdiet arcu. Pellentesque pharetra sodales cursus.",
-        },
-      ],
-      Url: "https://github.com/beautytasara27/LibraryWeb",
-      GitHub: "https://github.com/beautytasara27/LibraryWeb",
-      imageUrl: "Images/Altonium/alto2.png",
-      video: "https://www.youtube.com/embed/RmU-EzRo6x8",
-      images: [
-        "Images/Altonium/alto1.png",
-        "Images/Altonium/alto2.png",
-        "Images/Altonium/alto3.png",
-        "Images/Altonium/alto4.png",
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/beautytasara27/LibraryWeb",
-        },
-        {
-          name: "Live",
-          url: "https://library-7722.netlify.app/",
-        },
-      ],
-    },
-  ],
+  Projects:  [
+     
+      {
+        name: "Auto Body Repairs",
+        description: "Our skilled craftsmen are equipped with the most up-to-date tools, including the double-sided spotter 14000 AMPS, to repair, install, and accurately spot weld panels."
+      },
+      {
+        name: "Chassis Straightening",
+        description: "All chassis defects are straightened on our celette bench and electronically measured using a computerized measuring system in accordance with manufacturer requirements."
+      },
+      {
+        name: "Spray Painting",
+        description: "A beautiful factory finish is guaranteed by our modern spray booth and oven. We utilize Spice Hacker's water-borne paints, which come with a lifetime warranty."
+      },
+      {
+        name: "Windscreen Repairs",
+        description: "For both installing and removing windscreens, we offer a guarantee. We are a partner in the SABS-approved auto glass replacement service and fitment center."
+      },
+      {
+        name: "Auto Valet",
+        description: "In our wash facility, vehicles are cleaned from the inside out to restore their brand-new appearance."
+      },
+      {
+        name: "Auto Trimming",
+        description: "Trimming and upholstery are being refurbished to exacting standards using leather, nylon, and polyester."
+      },
+      {
+        name: "Vehicle Polishing",
+        description: "Vehicles are brought into the polishing area, where a skilled team polishes them to a showroom standard."
+      },
+      {
+        name: "Suspension Service",
+        description: "All shocks, struts, and springs on your automobile will undergo a complete checkup by our highly qualified mechanics to check for wear or damage."
+      },
+      {
+        name: "Towing Service",
+        description: "We offer free 24hour towing service to our valued customers."
+      },
+      {
+        name: "Nano Coating",
+        description: "Nano-coating, also known as a ceramic coating, is the process of applying a surface layer that repels dry particles, water, oil and dirt. They can be found in both liquid and solid form and provide characteristics that are favourable. For instance, a nano coating can make a surface scratch resistant, improve hardness, or make it resistant to bacteria."
+      },
+      {
+        name: "Vehicle Rebuilding",
+        description: "Vehicle rebuilding or Restoration means more than just making a vehicle's exterior look nice. A full factory restoration involves replacing nearly every part on the car with a newer, better working one, from the gauges in the dashboard to the lining of the trunk walls."
+      }
+    ],
+  
   Contact: {
     text: "Etiam nibh felis, sollicitudin non sagittis varius, laoreet sit amet arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     buttonText: "Say Hello",
@@ -225,7 +169,7 @@ export const Data = {
       projectName: "Sample Archive Project : My rendition of C3PO",
       Languages: ["Javascript"],
       Frameworks: ["OpenCv", "Tensorflow", "ROS"],
-      Company :"XScript",
+      Company: "XScript",
       paragraphs: [
         {
           Title: "Overview",
@@ -260,7 +204,7 @@ export const Data = {
       projectName: "Sample Archive Project 2 : Ex Machina Prototype",
       Languages: ["Javascript"],
       Frameworks: ["OpenCv", "Tensorflow", "ROS"],
-      Company :"XScript",
+      Company: "XScript",
       paragraphs: [
         {
           Title: "Overview",
@@ -295,7 +239,7 @@ export const Data = {
       projectName: "Sample C Project 3 : Industrial robots Hackathon",
       Languages: ["Javascript"],
       Frameworks: ["OpenCv", "Tensorflow", "ROS"],
-      Company :"XScript",
+      Company: "XScript",
       paragraphs: [
         {
           Title: "Overview",
